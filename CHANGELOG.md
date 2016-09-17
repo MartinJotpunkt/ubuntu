@@ -1,5 +1,21 @@
 # Changelog
 
+## 2.0.21 (2016-08-31)
+
+* Include extra tools useful for headless operation, like tmux
+
+## 2.0.20 (2016-08-27)
+
+* Update 16.04 images to 16.04.1 release
+
+## 2.0.19 (2016-08-27)
+
+* Add Ubuntu 16.10 (development branch) template
+* Upgrade VirtualBox guest additions to 5.0.26
+* Upgrade Parallels tools to 11.2.1
+* Fix VMware tools on Ubuntu 14.04.5 boxes
+* CM installs have been phased out, use custom-script.sh instead
+
 ## 2.0.18 (2016-06-05)
 
 * Install open-vm-tools when kernel 4.1 or greater is present, now that
